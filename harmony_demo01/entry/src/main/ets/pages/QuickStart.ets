@@ -1,6 +1,6 @@
 @Component
 export struct QuickStartPage {
-  private arr: String[] = ['0', '1', '2', '3','4','5'];
+  private arr: String[] = ['0', '1', '2', '3', '4', '5'];
 
   //...
   build() {
@@ -80,7 +80,8 @@ export struct QuickStartPage {
               .justifyContent(FlexAlign.SpaceBetween)
             }
             .borderRadius(10)
-            .backgroundColor(0x007DFF)
+            .backgroundColor(Color.White)
+
             // .width('100%')
           }, (item: string) => item)
         }
@@ -105,8 +106,10 @@ export struct QuickStartPage {
         // },...)
       }
       .width('100%')
+
       // .height('100%')
     }
+    .backgroundColor(Color.Grey)
   }
 }
 
@@ -177,7 +180,7 @@ struct SwiperExample {
 
 @Component
 struct FuNengTaoJian {
-  private arr: String[] = ['0', '1', '2', '3','4','5'];
+  private arr: String[] = ['0', '1', '2', '3', '4', '5'];
 
   build() {
     Grid() {
